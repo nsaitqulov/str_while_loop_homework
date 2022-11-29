@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    x=0
+    y=0
+    while x<len(s):
+        if s[x].isdigit() or s[x].isalpha():
+            y+=1
+        x+=1
+    return len(s)-(y)
+print(main("#hashtag@$"))
