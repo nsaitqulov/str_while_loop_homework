@@ -13,4 +13,4 @@ def main(s):
             y+=int(s[x])
         x+=1
     return y
-print(main("589765"))
+print(main("98421"))
